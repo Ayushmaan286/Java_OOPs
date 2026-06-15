@@ -17,7 +17,6 @@ class learner
     void setname(String name)
     { 
         this.name=name;
-
     }//setter function
     void setSchool(String School)
     {
