@@ -19,7 +19,7 @@ constructor() --> constructor
 }
 
 
-as soon as class is loaded static block will be executed 
+as soon as class is loaded static block will be executed and memory is alotted to static variables 
 then object is created java initialiser block will be executed 
 then constructor is called 
 
