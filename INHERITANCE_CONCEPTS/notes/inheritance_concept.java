@@ -46,9 +46,17 @@ public class inheritance_concept {
 } 
 /*in this code i have called zebra function but its constructor also gets executed , so that means the constructor of the parent class is also inherited  THE STRAIGHT FORWARD ANSWER IS NO. THE CONSTRUCTOR CAN NEVER BE INHERITED 
 it is possible because the compiler would create a default constructor for zebra class when there is no constructor present 
-and whenever a constructor is made its first line is super function call
+and whenever a constructor is made its first line is super function call.
 
 -->super(): this function call calls the constructor of the parent class 
+
+-->EXCEPTION - if this() function is called at the start of the constructor then super() is not added by the compiler 
+
+-->EITHER this() OR super() METHOD WILL BE PRESENT IN A CONSTRUCTOR .
+
+--> super (keyword):- it is used to refer to any member of the parent class.
+     eg. super.i; it will use the the value of i present in parent class.
+
 
 --> INHERITED METHOD:methods that are inherited from the parents and are implemented as it is in the child class
 --> OVER RIDDEN METHOD: methods in which changes are made after they are inherited from the parent class
@@ -64,6 +72,19 @@ and whenever a constructor is made its first line is super function call
 
      --> upcasting :- creating parent named reference for child type instance
 
+
+--> STATIC METHODS CAN BE INHERITED BUT THEY CANT BE OVERRIDDEN (METHOD HIDING)
+    whenever we try to over ride static method in child class it will hide the parent class static method it will behave like a specialised method of child class .
+
+
+
+--> final keyword:- it can be applied to a class, variable, method  . 
+                    final class can't be inherited
+                    final method can be inherited 
+                    final method can't be overrided
+
+--> FINAL AND STATIC METHODS IN JAVA CAN BE INHERITED BUT CAN'T BE OVERRIDEN 
+--> PRIVATE METHOD CAN'T BE INHERITED SO NO CHANCE OF OVERRIDING .
 
 */
 
